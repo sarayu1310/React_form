@@ -1,0 +1,54 @@
+/* table.css */
+
+/* Feedback Message */
+.feedback-message {
+    margin-top: 20px;
+    font-size: 20px;
+    color: green;
+    text-align: center; /* Centers text horizontally */
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+}
+
+/* Table Styles */
+.submitted-data {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.data-table th, .data-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.edit-button, .delete-button {
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.edit-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
+.delete-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+}
+
+.edit-button:hover, .delete-button:hover {
+    opacity: 0.8;
+}
