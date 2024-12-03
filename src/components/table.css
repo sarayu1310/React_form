@@ -1,13 +1,11 @@
-/* table.css */
-
 /* Feedback Message */
 .feedback-message {
     margin-top: 20px;
     font-size: 20px;
     color: green;
-    text-align: center; /* Centers text horizontally */
-    justify-content: center; /* Centers content horizontally */
-    align-items: center; /* Centers content vertically */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Table Styles */
