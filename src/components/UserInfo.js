@@ -8,16 +8,16 @@ const UserInfo = () => {
       <style>
         {`
         input {
-          border: 1px solid #ccc; /* Neutral border */
+          border: 1px solid #ccc;
           border-radius: 4px;
           padding: 8px;
           outline: none;
           width: 100%;
-          background-color: white; /* Ensure white background */
+          background-color: white;
         }
 
         input:focus {
-          border-color: #007BFF; /* Optional: Add a subtle focus effect */
+          border-color: #007BFF;
         }
 
         input:-webkit-autofill {
@@ -28,12 +28,12 @@ const UserInfo = () => {
         .flex-col {
           display: flex;
           flex-direction: column;
-          gap: 10px; /* Space between elements */
+          gap: 10px;
         }
 
         .split-container {
           display: flex;
-          gap: 20px; /* Space between columns */
+          gap: 20px;
         }
         `}
       </style>
